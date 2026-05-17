@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://new-workshops-059660.framer.app/sitemap.xml
