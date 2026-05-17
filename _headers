@@ -1,2 +1,2 @@
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://framerusercontent.com; style-src 'self' 'unsafe-inline' https://framerusercontent.com; img-src 'self' data: https://framerusercontent.com; font-src 'self' https://framerusercontent.com; connect-src 'self' https://framerusercontent.com;
+  Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval' blob:; connect-src * 'unsafe-inline'; img-src * data: blob:; frame-src *; style-src * 'unsafe-inline';
